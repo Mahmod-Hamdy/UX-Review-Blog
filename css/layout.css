@@ -1,0 +1,446 @@
+/* Layout Out File For Responsive Design in all Screen📱💻 */
+@media screen and (max-width:640px){
+    #heroSection .container .nav-bar{
+        width: 100%;
+    }
+    .container{
+    width: 90%;
+    margin: auto;
+    }
+        .nav-bar ul{
+        display:none;
+        width:90%;
+        flex-direction:column;
+    }
+    #heroSection .container .nav-bar{
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 15px;
+    position: fixed;
+    top: 20px;
+    width: 90%;
+    margin: auto;
+    z-index: 200;
+}
+#heroSection .container .nav-bar button{
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 18px;
+    color: #111;
+    padding: 5px 7px;
+    background-color:#FFD15B ;
+}
+    .f-properties{
+    font-size: 23px;
+    font-weight: 800;
+    line-height: 27px;
+    color: #111;
+    }
+    #heroSection .container{
+    position: relative;
+    margin-top: 180px;
+    margin-bottom: 100px;
+}
+    #heroSection .container .all-items .item-artical{
+        width: 100%;
+    }
+        #heroSection .container .all-items .item-artical .inner-item-artical{
+            padding: 0;
+        }
+    #heroSection .container .all-items .item-artical .inner-item-artical .tn{
+        font-size: 11px;
+        font-weight: 700;
+        line-height: 15px;
+    }
+    #heroSection .container .all-items .item-artical .inner-item-artical h1{
+    font-size: 54px;
+    font-weight: 900;
+    line-height: 68px;
+    }
+    #heroSection .container .all-items .item-artical .inner-item-artical p{
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 24px;
+        width: 100%;
+    }
+    #heroSection .container .all-items .item-artical .inner-item-artical .btn-watch{
+    width: 49%;
+    }
+    #heroSection .container .all-items .item-artical .inner-item-artical .btn-start ,.btn-watch{
+    padding: 15px 0;
+    }
+    #heroSection .container .all-items .item-artical .inner-item-artical button span{
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 28px;
+    }
+#heroSection .container .all-items .item-artical .inner-item-artical .all-btn{
+    margin: 20px 0 40px 0 ;
+    }
+    #heroSection .container .all-items .item-img{
+        width: 100%;
+        margin-top: 30px;
+    }
+    #latestArticles .container .articles-latest{
+        width: 100%;
+        padding: 0;
+    }
+    #latestArticles .container .articles-latest .header-span span{
+        display: none;
+    }
+    #latestArticles .container .articles-latest .header-span h2{
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 36px;
+    color: #000000;
+    }
+    #latestArticles .container .articles-latest .article-outter .inner-art .img-art{
+    margin-top: 15px;
+    width: 30%;
+    height: 20%;
+    border: 2px solid black;
+    position: relative;
+    }
+    #latestArticles .container .articles-latest .article-outter .inner-art .img-art span{
+    padding:4px 5px;
+    font-size: 9px;
+    font-weight: 700;
+    line-height: 12px;
+    }
+    #latestArticles .container .articles-latest .article-outter .inner-art .pg-article .s-h-p span{
+    padding:3px 6px;
+    font-size: 9px;
+    font-weight: 700;
+    line-height: 12px;
+    }
+    #latestArticles .container .articles-latest .article-outter .inner-art .pg-article .s-h-p h3{
+    margin-bottom:10px ;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    }
+    #latestArticles .container .articles-latest .article-outter .inner-art .pg-article .s-h-p p{
+    margin-bottom:10px ;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    }
+    #latestArticles .container .articles-latest .article-outter .inner-art .pg-article .info-pg-artical{
+        flex-direction: column;
+    }
+    #latestArticles .container .articles-latest .article-outter .inner-art .pg-article .info-pg-artical span{
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 15px;
+    margin-bottom: 7px;
+    }
+    #latestArticles .container .articles-latest button{
+        width: 70%;
+        box-shadow: 5px 5px;
+    }
+    #latestArticles .container .articles-latest button:hover{
+    transform:translate( 5px , 5px);
+    box-shadow: 0px 0px;
+    }
+    #latestArticles .container .articles-latest button span{
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 21px;
+    }
+    #latestArticles .container .trending-categories{
+    width:100%;
+    position: static;
+    }
+    #latestArticles .container .trending-categories .trending-now h3{
+    font-size: 23px;
+    font-weight: 900;
+    line-height: 27px;
+    margin: 0 0 15px 0;
+    }
+    #latestArticles .container .trending-categories .trending-now h3{
+    font-size: 23px;
+    font-weight: 900;
+    line-height: 27px;
+    margin: 0 0 15px 0;
+    }
+    #latestArticles .container .trending-categories .trending-now .inner-trend .num-p{
+    margin-bottom: 20px;
+    }
+#latestArticles .container .trending-categories .trending-now .inner-trend .num-p .sp-p{
+    margin-right: 15px;
+    }
+    #latestArticles .container .trending-categories .trending-now .inner-trend .num-p .sp-p span{
+    font-size: 27px;
+    font-weight: 900;
+    line-height: 30px;
+}
+#latestArticles .container .trending-categories .trending-now .inner-trend .num-p p{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+}
+#latestArticles .container .trending-categories .trending-now p .inner-p{
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 15px;
+    margin-top: 5px;
+}
+#latestArticles .container .trending-categories .categories h3{
+    font-size: 23px;
+    font-weight: 900;
+    line-height: 27px;
+}
+#latestArticles .container .trending-categories .categories span{
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+}
+#authors .container .h2-p-line h2{
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 36px;
+    margin-bottom: 15px;
+}
+#authors .container .h2-p-line p{
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 21px;
+    margin-bottom: 20px;
+}
+#authors .container .h2-p-line .line{
+    width: 100px;
+    height: 7px;
+    background-color: #000;
+}
+#authors .container .h2-p-line{
+    margin-bottom:   40px;
+}
+#authors .container .authors .inner-authors .only-one-author{
+    width: 100%;
+    padding: 25px;
+    margin-bottom: 25px;
+}
+#latestArticles .container{
+    padding: 50px 0;
+}
+#authors .container .authors .inner-authors{
+    padding-left: 0;
+}
+#authors .container .authors .inner-authors .only-one-author h3{
+    font-size: 23px;
+    font-weight: 900;
+    line-height: 27px;
+        margin-bottom: 15px;
+}
+#authors .container .authors .inner-authors .only-one-author .pg-1{
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+        margin-bottom: 12px;
+}
+#authors .container .authors .inner-authors .only-one-author .pg-2{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+        margin-bottom: 20px;
+    }
+    #authors .container .authors .inner-authors .only-one-author .links .social-media{
+    width: 13%;
+}
+#authors .container .authors .inner-authors .only-one-author span{
+    font-size: 9px;
+    font-weight: 700;
+    line-height: 12px;
+    padding: 5px 7px;
+}
+#authors .container{
+    padding: 50px 0;
+}
+#community .container{
+    padding: 50px 0;
+}
+#community .container .h2-p-line h2{
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 36px;
+    margin-bottom: 15px;
+}
+#community .container .h2-p-line p{
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 21px;
+    margin-bottom: 20px;
+}
+#community .container .h2-p-line .line{
+    width: 100px;
+    height: 8px;
+}
+#community .container .h2-p-line{
+    margin-bottom: 40px;
+}
+#community .container .become-what{
+    padding-left: 0 ;
+}
+#community .container .become-what .become{
+    width: 100%;
+    padding: 0;
+}
+#community .container .become-what .become .inner-become .sign-p{
+    flex-wrap: nowrap;
+    align-items: center;
+}
+#community .container .become-what .become .inner-become .sign-p p{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px;
+}
+#community .container .become-what .become .inner-become .sign-p .sign img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin: auto;
+    padding: 8px;
+}
+#community .container .become-what .become .inner-become .btn-join{
+    width:80%;
+    box-shadow: 5px 5px;
+}
+#community .container .become-what .become .inner-become .btn-join:hover{
+    transform:translate( 5px , 5px);
+}
+#community .container .become-what .become .inner-become .btn-join span{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    font-family: "Exo", sans-serif;
+}
+#community .container .become-what .become .inner-become .btn{
+text-align: center;
+width: 100%;
+margin: 40px 0;
+}
+#community .container .become-what .what{
+    width: 100%;
+    padding: 20px;
+    padding-bottom: 0;
+    border: 3px solid black;
+    box-shadow: 6px 6px black;
+}
+#community .container .become-what .what .inner-what h3{
+    font-size: 23px;
+    font-weight: 900;
+    line-height: 27px;
+    margin-bottom: 20px;
+}
+#community .container .become-what .what .inner-what .name-rebels{
+    padding: 20px;
+}
+#community .container .become-what .what .inner-what .name-rebels .inner-name-rebels p{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+}
+#community .container .become-what .what .inner-what .name-rebels .inner-name-rebels .name-img .p-n h4{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+}
+#community .container .become-what .what .inner-what .name-rebels .inner-name-rebels .name-img .p-n h4{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+}
+#community .container .become-what .what .inner-what .name-rebels .inner-name-rebels .name-img .p-n p{
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 15px;
+}
+#footer .container .ux-cat-new .ux{
+    width: 100%;
+    padding-right:0;
+    margin-bottom: 25px;
+}
+#footer .container .ux-cat-new .ux .p-h2 h2{
+    font-size: 23px;
+    font-weight: 900;
+    line-height: 27px;
+}
+#footer .container .ux-cat-new .ux p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+}
+#footer .container{
+    padding: 50px 0;
+}
+#footer .container .ux-cat-new .cat{
+    width: 100%;
+    margin-bottom: 25px;
+}
+#footer .container .ux-cat-new .cat h3{
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+#footer .container .ux-cat-new .cat li{
+    margin-bottom: 15px;
+}
+#footer .container .ux-cat-new .cat li a{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px;
+}
+#footer .container .ux-cat-new .new{
+    width: 100%;
+}
+#footer .container .ux-cat-new .new h3{
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+#footer .container .ux-cat-new .new p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-bottom:20px ;
+}
+#footer .container .ux-cat-new .new .input-1{
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 23px;
+}
+#footer .container .ux-cat-new .new .input-2{
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 23px;
+}
+#footer .container .line{
+    margin: 20px 0;
+}
+#footer .container .copyright-cookies p{
+    width: 100%;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 21px;
+    margin-bottom: 20px;
+}
+#footer .container .copyright-cookies .cookies{
+    width: 100%;
+    justify-content: center;
+}
+#footer .container .copyright-cookies .cookies a{
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    color: white;
+}
+}
