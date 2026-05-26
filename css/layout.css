@@ -24,18 +24,10 @@
     width: 90%;
     margin: auto;
     z-index: 200;
-}
+    }
     #heroSection .square-3{
     display:none;
     }
-    /* #heroSection .container .nav-bar button{
-        font-size: 11px;
-        font-weight: 700;
-        line-height: 18px;
-        color: #111;
-        padding: 5px 7px;
-        background-color:#FFD15B ;
-    } */
     #heroSection .container .nav-bar button{
         display: none;
     }
@@ -104,7 +96,7 @@
     padding: 15px 0;
     }
     #heroSection .container .all-items .item-artical .inner-item-artical button span{
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 700;
     line-height: 28px;
     }
