@@ -1,5 +1,5 @@
 /* Layout Out File For Responsive Design in all Screen📱💻 */
-@media screen and (max-width:640px){
+@media screen and (max-width:1540px){
     #heroSection .container .nav-bar{
         width: 100%;
     }
@@ -25,17 +25,45 @@
     margin: auto;
     z-index: 200;
 }
-#heroSection .square-3{
-display:none;
-}
-#heroSection .container .nav-bar button{
-    font-size: 11px;
-    font-weight: 700;
-    line-height: 18px;
-    color: #111;
-    padding: 5px 7px;
-    background-color:#FFD15B ;
-}
+    #heroSection .square-3{
+    display:none;
+    }
+    /* #heroSection .container .nav-bar button{
+        font-size: 11px;
+        font-weight: 700;
+        line-height: 18px;
+        color: #111;
+        padding: 5px 7px;
+        background-color:#FFD15B ;
+    } */
+    #heroSection .container .nav-bar button{
+        display: none;
+    }
+    .menu-icon{
+        display: block;
+    }
+    #menu-toggle:checked ~ .nav-links{
+    display: flex;
+    flex-direction: column;
+    }
+    .nav-bar{
+    position: fixed;
+    }
+    #heroSection .container .nav-bar .nav-links{
+        position: absolute;
+        top: 100%;
+        right: 0;
+        width: 220px;
+        background-color: white;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        padding: 20px;
+        display: none;
+    }
+    #heroSection .container .nav-bar ul .af::after{
+    content:"none";
+    }   
     .f-properties{
     font-size: 23px;
     font-weight: 800;

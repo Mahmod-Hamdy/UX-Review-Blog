@@ -53,6 +53,16 @@ img{
     position: absolute;
     z-index: 1;
 }
+#menu-toggle{
+    display: none;
+}
+.menu-icon{
+    display: none;
+    font-size: 25px;
+    cursor: pointer;
+    border: 2px solid black;
+    box-shadow: 3px 3px;
+}
 #heroSection .square-1{
     width: 130px;
     height: 130px;
@@ -128,10 +138,14 @@ img{
 }
 #heroSection .container .nav-bar ul{
     gap: 25px;
+    display: flex;
     align-items: center;
 }
 #heroSection .container .nav-bar ul a{
     align-items:center;
+}
+#heroSection .container .nav-bar ul a:focus{
+    text-decoration: underline #FF6900;
 }
 #heroSection .container .nav-bar ul .af::after{
     content:"";
